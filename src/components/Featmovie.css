@@ -1,0 +1,75 @@
+.feat{
+    height: 100vh;
+
+}
+.feat--vertical{
+ width: inherit;   
+ height: inherit;
+ background: linear-gradient(to top, #010014 10%, transparent 90%);
+}
+
+.feat--horizontal{
+width: inherit; 
+height: inherit;  
+background: linear-gradient(to right, #010014 30%, transparent 70%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 30px;
+padding-bottom: 200px;
+padding-top: 70px;
+}
+.feat--name{
+font-size: 60px;
+font-weight: bold;   
+}
+.feat--info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+   
+}
+.feat--points, .feat--year, .feat--seasons{
+    display: inline-block;
+    margin-right: 15px;
+
+}
+.feat--points{
+    color: #46d369;  
+}
+.feat-description{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #999;
+    max-width: 40%;
+}
+.feat--buttons{
+    margin-top: 15px;
+}
+.feat--watchbutton, .feat--mylistbutton{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 1;
+    transition: all ease 0.2;
+}
+.feat--watchbutton:hover, .feat--mylistbutton:hover{
+opacity: 70%;
+}
+.feat--watchbutton{
+    background-color: #fff;
+    color: #b2daf5;
+}
+.feat--mylistbutton{
+    background-color: #333;
+    color: #fff;
+}
+.feat--genres{
+    margin-top: 15px;
+    font-size:18px;
+    color: #999;
+}
