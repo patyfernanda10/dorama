@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dorama/static/css/main.26ee9fcf.css",
+    "main.js": "/dorama/static/js/main.a2b0ddc5.js",
+    "index.html": "/dorama/index.html",
+    "main.26ee9fcf.css.map": "/dorama/static/css/main.26ee9fcf.css.map",
+    "main.a2b0ddc5.js.map": "/dorama/static/js/main.a2b0ddc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26ee9fcf.css",
+    "static/js/main.a2b0ddc5.js"
+  ]
+}
